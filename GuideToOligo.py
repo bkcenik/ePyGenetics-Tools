@@ -1,6 +1,7 @@
 
 ## GuideToOligo ##
-## for converting your guide RNA sequences to order-ready oligos
+## biopython wrapper script for converting your guide RNA sequences to order-ready oligos
+## coded by Bercin Cenik
 
 # create virtual environment, install BioPython on it
 # here are the shell commands for that
