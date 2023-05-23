@@ -178,9 +178,3 @@ with open('input.csv') as infile, open('output2.csv', 'w', newline='') as outfil
         for i in range(0, len(row), 2):
             writer.writerow([row[i], row[i+1]])
 ```
-
-### Related files
-
-[https://www.notion.so](https://www.notion.so)
-
-[https://www.notion.so](https://www.notion.so)
