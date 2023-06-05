@@ -1,9 +1,9 @@
-# Draft of ONT bam merge scripts
+# BA-BAM! Draft of ONT bam merge scripts
 
 Created by: Bercin Cenik
 Date: June 5, 2023 10:51 AM
 
-Overview: this is a list of all the steps I perform for Oxford Nanopore cDNA bam file merging. It also contains instructions for indexing the files with `samtools`
+Overview: this is a list of all the steps I perform for Oxford Nanopore cDNA bam file merging (aka creating big-a** bam files, aka. ba-bams). It also contains instructions for indexing the files with `samtools`
 
 ### Merging of alignments:
 
