@@ -6,3 +6,4 @@
 3. `get_reverse_complements.ipynb`: this jupyter notebook has a few python scripts for outputting reverse complemented oligo tables.
 4. retrieving sgRNAs from library: this is a markdown file with my instructions for retrieving a set of sgRNAs from a library and formatting them into order-ready oligos.
 5. `make.tar.sh` and `make.merged.fastq.sh`: these scripts respectively tarball ONT minibam files and merge ONT minifastq files. the instructions are contained in the `maketar_makemergedfastq.instructions.md` file.
+6. `babam.md`: draft of a script collection for creating merged bam files from ONT minibam files, aka big-a** bam files (BA-BAM files).
