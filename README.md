@@ -11,3 +11,6 @@
 ### Oxford Nanopore Sequencing tools
 1. `make.tar.sh` and `make.merged.fastq.sh`: these scripts respectively tarball ONT minibam files and merge ONT minifastq files. the instructions are contained in the `maketar_makemergedfastq.instructions.md` file.
 2. `babam.md`: draft of a script collection for creating merged bam files from ONT minibam files, aka big-a** bam files (BA-BAM files).
+
+### Pipelines 
+1. `make.PE.chip.scripts.sh`: generates individual shell scripts for QC, trimming, alignment, bigwig track generation and upload. Usage: `make.PE.chip.scripts.sh -w <workDir> -f <fastqDir> -g <genome> -s <scientistID> -t <tangoNumber> [-r <runflag: 0 or 1>]`. Note that this assumes the `_SXX_R1_001.fastq.gz` naming convention for fastq files. Modify accordingly if not the case. Spike-in version is being tested.
