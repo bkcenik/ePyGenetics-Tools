@@ -96,7 +96,7 @@ while read -r path; do
     echo "#SBATCH --ntasks-per-node=15" >> "$filename2"
     echo "#SBATCH -o %x.o%j" >> "$filename2"
     echo "#SBATCH -e %x.e%j" >> "$filename2"
-    echo """ >> "$filename2"
+    echo "" >> "$filename2"
     echo "module load samtools" >> "$filename2"
     echo """ >> "$filename2"
 
